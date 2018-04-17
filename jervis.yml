@@ -1,0 +1,11 @@
+language: java
+stability: unstable
+platform: docker
+sudo: sudo
+os: ubuntu1604
+toolchain: jdk
+
+install: apt update -y
+branches:
+  only:
+    - develop
